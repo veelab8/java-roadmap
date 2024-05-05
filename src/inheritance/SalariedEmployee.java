@@ -12,7 +12,7 @@ public class SalariedEmployee extends Employee {
     @Override
     public double collectPay() {
         double paycheck = annualSalary / 26;
-        double adjustedPay = (isRetired) ? 0.9 * paycheck : paycheck;
+        double adjustedPay = (isRetired) ? 0.9 * paycheck : paycheck;   // maximum pension can only ever be 90% of their final salary
         return (int) adjustedPay;
     }
 

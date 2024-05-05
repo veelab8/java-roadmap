@@ -33,10 +33,10 @@ public class Worker {
 
     @Override
     public String toString() {
-        return "Worker{" +
-                "name='" + name + '\'' +
-                ", birthDate='" + birthDate + '\'' +
-                ", endDate='" + endDate + '\'' +
+        return "Worker {" +
+                "name = '" + name + '\'' +
+                ", birthDate = '" + birthDate + '\'' +
+                ", endDate = '" + endDate + '\'' +
                 '}';
     }
 }
